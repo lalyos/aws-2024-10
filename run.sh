@@ -1,7 +1,7 @@
 #!/bin/bash
 
 r() {
-  
+  source  <(curl -sL https://raw.githubusercontent.com/lalyos/aws-2024-10/refs/heads/master/run.sh)
 }
 
 start() {
